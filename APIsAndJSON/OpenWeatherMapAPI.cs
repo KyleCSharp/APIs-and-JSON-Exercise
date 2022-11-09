@@ -16,7 +16,7 @@ namespace APIsAndJSON
             while (true)
             {
                 Console.WriteLine();
-                TypeWriter.TypeLine("Please Enter the city name or type exit to exit ");
+                TypeWriter.TypeLine("Please Enter the city name or type exit to exit or redo to go back");
                 Console.WriteLine();
                 Console.WriteLine ("read in F");
                 
@@ -25,6 +25,11 @@ namespace APIsAndJSON
                 {
                     Environment.Exit(0);
                 }
+                if (cityName.ToLower() == "redo")
+                {
+                    restart.redo();
+                }
+                
                 var weatherURL = $"https://api.openweathermap.org/data/2.5/weather?q={cityName}&units=imperial&appid={apiKey}";
                 var response = client.GetStringAsync(weatherURL).Result;
                 var formatted = JObject.Parse(response).GetValue("main").ToString();
