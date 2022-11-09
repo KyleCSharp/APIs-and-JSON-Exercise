@@ -1,0 +1,7 @@
+C:\Users\kylel\OneDrive\Desktop\weather_kanye_api\APIsAndJSON.exe
+C:\Users\kylel\OneDrive\Desktop\weather_kanye_api\APIsAndJSON.dll
+C:\Users\kylel\OneDrive\Desktop\weather_kanye_api\APIsAndJSON.deps.json
+C:\Users\kylel\OneDrive\Desktop\weather_kanye_api\APIsAndJSON.runtimeconfig.json
+C:\Users\kylel\OneDrive\Desktop\weather_kanye_api\APIsAndJSON.pdb
+C:\Users\kylel\OneDrive\Desktop\weather_kanye_api\Newtonsoft.Json.dll
+C:\Users\kylel\OneDrive\Desktop\weather_kanye_api\Newtonsoft.Json.Bson.dll

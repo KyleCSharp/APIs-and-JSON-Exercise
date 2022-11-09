@@ -16,7 +16,7 @@ namespace APIsAndJSON
             while (true)
             {
                 Console.WriteLine();
-                TypeWriter.TypeLine("Please Enter the city name or type to exit");
+                TypeWriter.TypeLine("Please Enter the city name or type exit to exit ");
                 Console.WriteLine();
                 Console.WriteLine ("read in F");
                 

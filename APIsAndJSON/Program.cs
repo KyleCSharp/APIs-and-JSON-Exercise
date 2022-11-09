@@ -9,24 +9,29 @@ namespace APIsAndJSON
         static void Main(string[] args)
 
         {
-            TypeWriter.TypeLine ("would you like to see quotes or get the weather?");
+            TypeWriter.TypeLine("would you like to see quotes or get the weather?  please Type one or the other.");
             Console.WriteLine();
 
-            var UserResponce= Console.ReadLine();
+            var UserResponce = Console.ReadLine();
             if (UserResponce.ToLower() == "quotes")
             {
-                for (int i = 0; i <8; i++)
+                for (int i = 0; i < 8; i++)
                 {
-                RonVSKanyeAPI.KanyeQuote();
+                    RonVSKanyeAPI.KanyeQuote();
 
-                RonVSKanyeAPI.RonQuote();
+                    RonVSKanyeAPI.RonQuote();
                 }
             }
             if (UserResponce.ToLower() == "weather")
             {
                 OpenWeatherMapAPI.Weather();
             }
-           
+            if (UserResponce.ToLower() == "exit")
+            {
+
+                Environment.Exit(0);
+            
+            }
             
         }
         
